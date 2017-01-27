@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^register?$ register.php
+RewriteRule ^forgot?$ forgot.php
+RewriteRule ^login?$ index.php
+RewriteRule ^dashboard?$ dashboard.php
+RewriteRule ^index?$ index.php
+RewriteRule ^Login?$ index.php
+
+
